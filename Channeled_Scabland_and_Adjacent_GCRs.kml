@@ -1,0 +1,2265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>Channeled_Scabland_and_Adjacent_GCRs.kml</name>
+	<open>1</open>
+	<description>This geomorphic inventory aims to locate all of the Giant Current Ripples (GCRs) in the Channeled Scabland and in adjacent areas that drain into the Columbia River. 
+
+The inventory includes all GCRs mapped by Baker (1973), as well as sets identified more recently by Skye Cooley, Jerome Lesemann, me (Joel Gombiner), and others. (see https://www.skyecooley.com/single-post/2020/07/01/giant-current-ripples-at-omak-wa). Also included are GCRs identified by J Harlen Bretz during field work in the 1920&apos;s and inventoried by Glenn Cruickshank (see https://www.geology.cwu.edu/facstaff/nick/gBRETZ/). 
+
+If you notice any errors or omissions in this inventory, please contact joelhg@gmail.com. (c) 2024</description>
+	<Schema name="Channeled_Scabland_and_Adjacent_GCRs" id="Channeled_Scabland_and_Adjacent_GCRs">
+		<SimpleField type="string" name="layer"></SimpleField>
+		<SimpleField type="string" name="path"></SimpleField>
+	</Schema>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin300">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin220</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_blu-stars">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blu-stars</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blu-stars</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grn-stars110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-stars4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-stars21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grn-stars2100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-stars310</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-stars150</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin220">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl20">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_blu-stars">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_grn-stars150">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_grn-stars21">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_blu-stars">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_grn-stars310">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_grn-stars4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>Channeled_Scabland_and_Adjacent_GCRs</name>
+		<Placemark>
+			<name>Pateros1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CR</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_CR.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.881671074511,48.0076404958821,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pateros2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CR</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_CR.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.888741535193,48.0222155169542,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pateros3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CR</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_CR.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.900839832411,48.042016342673,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WestBar</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CR</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_CR.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.027896365159,47.2033585427628,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CoyoteRapids</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CR</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_CR.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.669702336763,46.6552408192286,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PriestRapids</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CR</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_CR.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.883418998676,46.6506083787811,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mattawa1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CR</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_CR.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.827122041552,46.6691256317581,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RockIsland</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CR</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_CR.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.094353786545,47.3293630082889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RockIsland2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CR</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_CR.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.108624651139,47.3413325941011,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RockIsland3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CR</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_CR.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.075681238207,47.3042928587436,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S West Bar</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CR</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_CR.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.017898812928,47.1198149360828,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Malaga</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CR</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_CR.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.209823767684,47.3695521913322,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EastWenatchee</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CR</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_CR.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.142738784515,47.4004024218258,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Greenacres1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.028435272533,47.7107094415724,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Greenacres2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.028337421536,47.7136242586574,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>West Odessa 1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.768319529279,47.311612959481,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WestOdessa2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.769265151849,47.31746029816381,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WestOdessa3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.731330973309,47.31873392617071,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WestOdessa4</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.739314801401,47.3428076713998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WilsconCreekLow1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.137133760135,47.4234215426731,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WilsonCreekLow2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.112524725227,47.4287845141808,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WilsonCreekLow3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.113825287576,47.4166043819373,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WilsonCreekLow4</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.095787241538,47.43300567887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WilsonCreekLow5</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.094950462358,47.4292081795211,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WilsonCreekLow6</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.095286752586,47.4420350621598,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>StaircaseRapidsBar</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.294613721767,46.78123257722289,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ShoulderBar</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.251841947232,46.5940840106097,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Macall</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.070744719783,47.0505696037792,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UnionFlatCreek1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.974319891259,46.829017718811,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UnionFlatCreek2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.963306079608,46.8352149282244,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UnionFlatCreek3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.960521137082,46.8318083118973,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UnionFlatCreek4</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.935337257006,46.84102881166611,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UnionFlatCreek5</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.960033800463,46.82711752237989,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UnionFlatCreek6</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.91089765511,46.85313651217529,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UnionFlatCreek7</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.892243897845,46.8540854395722,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UnionFlatCreek8</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.860374920093,46.85638287893379,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UnionFlatCreek9</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.862246414922,46.8468050199597,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UnionFlatCreek10</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.855936680313,46.8637988548009,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LindCoulee</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.813398779795,46.9430807463062,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EastLow</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.207503378923,47.3046077050338,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EastLow2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.199757956681,47.3113181720926,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EastLow3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.195278291836,47.2940924038013,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EastLow4</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.219371716463,47.28205968592,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kanniwei</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.041451817764,47.4441511084278,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kanniwei2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.077684954077,47.4644131525862,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Marlin1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.990712454002,47.4257239093674,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Marlin2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.960718733716,47.42028442575631,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Marlin3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.004900142608,47.4131246972291,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ArtesianLake1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.20628425612,47.2452026475586,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ArtesianLake2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.176946118043,47.2424031441127,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ArtesianLake3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.155772689236,47.2418145841575,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>rockyCoulee</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.033131812536,47.15580858598901,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RockyCoulee2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.01213637866,47.159927702392,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MidCanyonBar</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.20587479612,46.57605145566281,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pizzarro</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.378040838986,46.9732234581872,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hooper</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.13322541479,46.7734242831855,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hooper2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.14649065092,46.77525676334509,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hooper3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.148644738604,46.77969674789251,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hooper5</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.115904907098,46.79113556485319,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hooper4</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.117452255677,46.761208248428,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hooper6</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.10471721843,46.7584071661143,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hooper7</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.082998269968,46.812087310291,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hooper8</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.091083561732,46.8044154015791,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hooper9</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.063526493165,46.7883123093508,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Marengo1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.165062925376,47.03573084785459,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Marengo2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.1553928292,47.0372974559358,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FinnellLake1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.258037152432,47.092681335552,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FinnellLake2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.29832829895,47.0897744054724,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FinnellLake3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.29297961131,47.09442936993451,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FinnellLake4</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.30861146461,47.1056064781753,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FinnellLake5</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.287136675982,47.1296205894756,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CoffeePotLake</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.564913947793,47.46576626849669,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DuckLake</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.394558392808,47.5610396653911,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DuckLake2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.441055451541,47.5620695192099,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DuckLake3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.41880865993,47.540030037887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Edwall</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.026616053187,47.5122662968831,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Edwall2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.006553039841,47.5304117587978,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Edwall3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.010827200762,47.5245542566574,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Edwall4</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.992932862294,47.5359492341248,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Reardan1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.967367486524,47.5699251113158,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Reardan2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.960624592934,47.5759120795639,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Reardan3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.969017036986,47.5640510356104,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sprague</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.862710054648,47.2801197200001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sprague2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.899412611913,47.290391276784,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sprague3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.902466928415,47.2950565449392,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sprague4</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.908161902485,47.3050870756421,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sprague5</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.916563402499,47.30851197203851,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sprague6</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.913566422266,47.3062104716715,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PalmLake</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.076612752383,47.2322844075397,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PalmLake2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.067096064386,47.2443452326908,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PalmLake3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.055214700681,47.2534817013331,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PalmLake4</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.04542269305,47.26887391832611,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PalmLake5</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.05304979814,47.23289887744151,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PalmLake6</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.040838327831,47.23567173925459,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PalmLake7</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.129809601549,47.23014689460831,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PalmLake8</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.118272074495,47.2396747302745,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TSCR</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.240338146117,47.29116360459089,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TSCR2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.306522648828,47.28535133071431,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TSCR3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.265199803842,47.24836917134179,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TSCR4</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.196470069171,47.2333257571867,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TSCR6</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.282066137563,47.2111074210782,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EastOdessa</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.510383215147,47.40344491146549,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EastOdessa2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.581049189639,47.3823951238458,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EastOdessa3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.662815561141,47.3645032472281,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EastOdessa4</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.691582807372,47.3556675811391,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EastOdessa5</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.683300980925,47.34149791155579,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EastOdessa6</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.671237790618,47.3428635255161,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EastOdessa7</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.664985787274,47.33566273140241,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BasinCity</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.198328421908,46.5585057881549,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BasinCity2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.188331878892,46.5710656974165,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Edwards1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.015132462894,46.54590129478599,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SnakeRiver</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.819719219193,46.3210169239793,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DevilsCanyon</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.479643918667,46.5765497653543,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DevilsCanyon2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.542839753896,46.5435758013697,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MosesCoulee1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.956078295619,47.367371342909,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MosesCoulee2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.999491956845,47.3440819308337,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DavinRanch</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.285174994525,46.5998169147789,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DavinRanch2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.315074143419,46.59983300351939,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DavinRanch3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.344485057028,46.592904730358,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ankeny1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.111639170782,46.8385684271623,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ankeny2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.169787354468,46.8379432037306,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ankeny3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-118.164473784179,46.8848023160906,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ankeny4</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>-118.1751377462316</longitude>
+				<latitude>46.84417777458501</latitude>
+				<altitude>0</altitude>
+				<heading>3.249259848766312</heading>
+				<tilt>45.20145590094938</tilt>
+				<range>671.11187554105</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-118.1751377462316,46.84417777458501,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DeepCreek1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.762776076292,47.64980453682611,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DeepCreek2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.75916297577,47.631697391974,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Almira1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.036883187504,47.8994914664758,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Almira2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.023800220545,47.8987519282354,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Almira3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.021790756805,47.9026359139274,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Almira4</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.01796236071,47.9002880043193,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Almira5</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.015978618285,47.897582648524,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Almira6</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.014297436035,47.89363401378229,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Almira7</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.015578392899,47.8901225655491,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Almira8</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.016437970608,47.88375827247989,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Almira9</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.008141361099,47.8864053749617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Almira10</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.001729284669,47.8737273032523,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Almira11</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.131151593134,47.8073837864911,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Almira12</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.12558018048,47.8112122811542,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Almira13</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_CS</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.18133372726,47.7724739467192,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MarklePass1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_Montana</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_Montana.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.61613800834,47.5434990364628,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MarklePass2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_Montana</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_Montana.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.614333339502,47.5283311306988,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MarklePass3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_Montana</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_Montana.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.5952868547,47.5328992536189,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MarklePass4</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_Montana</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_Montana.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.588729671219,47.50190441747641,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lower Flathead River 1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_Montana</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_Montana.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.345033277841,47.4152630287945,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lower Flathead River 2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_Montana</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_Montana.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.306488172469,47.4478814085623,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BootMtn1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_Okanogan</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_Okanogan.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.35430815398,48.1866836538206,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BootMtn2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_Okanogan</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_Okanogan.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.335605336411,48.19179451564931,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BootMtn3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_Okanogan</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_Okanogan.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.337183074373,48.1876484165879,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Omak</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_Okanogan</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_Okanogan.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.481998459939,48.4469901441783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Penticton</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_Okanogan</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_Okanogan.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.589570951828,49.360176561506,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Penticton2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Channeled_Scabland_and_Adjacent_GCRs">
+					<SimpleData name="layer">GCRs_Okanogan</SimpleData>
+					<SimpleData name="path">/Users/joel/Desktop/GCR Paper/Spatial/GCRs_Okanogan.shp</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.591691275759,49.3615853137771,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fort Spokane</name>
+			<LookAt>
+				<longitude>-118.2894482148628</longitude>
+				<latitude>47.9276509563075</latitude>
+				<altitude>0</altitude>
+				<heading>-12.9354536086876</heading>
+				<tilt>9.794667457040681</tilt>
+				<range>8960.682580324761</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-118.3002538910784,47.93478117688633,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Deer Park</name>
+			<LookAt>
+				<longitude>-117.4595965009577</longitude>
+				<latitude>47.99796929118853</latitude>
+				<altitude>0</altitude>
+				<heading>0.01070975580604985</heading>
+				<tilt>6.392917242140059</tilt>
+				<range>2241.280389583795</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-117.4595965009577,47.99796929118853,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tualatin</name>
+			<LookAt>
+				<longitude>-122.721255692823</longitude>
+				<latitude>45.37677078230726</latitude>
+				<altitude>0</altitude>
+				<heading>-4.360772348176885</heading>
+				<tilt>14.44291933120343</tilt>
+				<range>2417.499809621411</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.7208042772189,45.37413761051651,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Potholes Coulee</name>
+			<LookAt>
+				<longitude>-119.9595505918117</longitude>
+				<latitude>47.14889439285062</latitude>
+				<altitude>0</altitude>
+				<heading>1.1137678332148</heading>
+				<tilt>12.62934557643042</tilt>
+				<range>995.3097137074567</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-119.9594165813829,47.15051781330195,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MLM12 Long Lake Current Ripples</name>
+			<open>1</open>
+			<description>Current ripples identified by Mike McCollum and the author, inspected by V. Baker, R.Waitt, J.OConner, J Gombiner, Ralph Haugerud, Ralph Dawes, Nick Zentner</description>
+			<Camera>
+				<gx:TimeStamp><when>2024-04-15</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-117.7356041600406</longitude>
+				<latitude>47.79546566923086</latitude>
+				<altitude>3303.476356391216</altitude>
+				<heading>-0.9968538504129405</heading>
+				<tilt>8.407807121148258</tilt>
+				<roll>0.9646293779795208</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_blu-stars</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-117.7317188506587,47.79970712993661,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="P2329SpiritLakeCurrentRipples">
+			<name>P27-29 Spirit Lake Current Ripples</name>
+			<open>1</open>
+			<description><![CDATA[North of this channel is moraine on the valley floor....well expressed, a great series of nearly north-south longated ridges and sags with a maximum observed relief of 80  feet.
+
+<a href="https://www.geology.cwu.edu/facstaff/nick/gBRETZ/1929_Bretz_FieldNotes.pdf#page=27">Bretz Field Notes</a>.]]></description>
+			<LookAt>
+				<gx:TimeStamp><when>2020-08-07</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-116.7858292039628</longitude>
+				<latitude>47.95853972016472</latitude>
+				<altitude>0</altitude>
+				<heading>6.803989195879638</heading>
+				<tilt>40.67849891443103</tilt>
+				<range>14080.73829696175</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_grn-stars110</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-116.8075179119068,47.96180790413614,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="P12427StaircaseRapidscurrentripples">
+			<name>P124-27 Staircase Rapids current ripples</name>
+			<open>1</open>
+			<description><![CDATA[Staircase Rapids.  The 1300 foot to 1325 to 1350 foot flat in lower two miles of this spillway is all gravel on top, with low, very much elongated elliptical ridges on it (GIANT CURRENT RIPPLES) trending approximately across it but limited to its eastern edge.
+
+
+<a href="https://www.geology.cwu.edu/facstaff/nick/gBRETZ/1927_Bretz_FieldNotes_Typed%20copy.pdf#page=124">Bretz Field Notes</a>]]></description>
+			<LookAt>
+				<gx:TimeStamp><when>2020-02-22</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-118.2925440926065</longitude>
+				<latitude>46.7837520895985</latitude>
+				<altitude>0</altitude>
+				<heading>7.306027477945043</heading>
+				<tilt>63.33817379320447</tilt>
+				<range>1342.078534336982</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_grn-stars2100</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-118.2946232535411,46.7829533208917,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="P5052Wardencataractsandgiantripples">
+			<name>P50-52 Warden cataracts and giant ripples</name>
+			<open>1</open>
+			<description><![CDATA[July 10 (with Neff) AAR 4A-50 shows the ripples on both cataract channel floors at their convergence south of the isolated hill of sedimentary rock.  
+
+
+<a href="https://www.geology.cwu.edu/facstaff/nick/gBRETZ/1952_Bretz_TypedDates.pdf#page=50">Bretz Field Notes</a>]]></description>
+			<LookAt>
+				<gx:TimeStamp><when>2023-08-03</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-119.093379630278</longitude>
+				<latitude>46.93515174603876</latitude>
+				<altitude>0</altitude>
+				<heading>-0.009914095775465946</heading>
+				<tilt>56.28708550453489</tilt>
+				<range>3416.215230371568</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-119.09550271021,46.93988436244522,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="P4952Trinidadcurrentripples">
+			<name>P49-52 Trinidad current ripples</name>
+			<open>1</open>
+			<description><![CDATA[July 10 (with Neff)  The 1300 foot terrace with giant ripples found today but the ripples were disappointing when seen at ground level.  There is an occasional basalt fragment on this granitic sand terrace and one granite bldr 1 1/2' dia was found.
+
+<a href="https://www.geology.cwu.edu/facstaff/nick/gBRETZ/1952_Bretz_TypedDates.pdf#page=49">Bretz Field Notes</a>]]></description>
+			<LookAt>
+				<gx:TimeStamp><when>2006-08-18</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-119.9876422701243</longitude>
+				<latitude>47.19769234945588</latitude>
+				<altitude>0</altitude>
+				<heading>-119.4954050213039</heading>
+				<tilt>57.61406178167463</tilt>
+				<range>1127.189406785996</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-119.984237756332,47.19867065342112,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Waneta Crossing</name>
+			<LookAt>
+				<gx:TimeStamp><when>2024-04-15</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-117.628540237778</longitude>
+				<latitude>48.98592037326281</latitude>
+				<altitude>0</altitude>
+				<heading>-21.34145260394698</heading>
+				<tilt>30.09415765882041</tilt>
+				<range>980.1457875787132</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-117.6253383915059,48.98594156871604,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
